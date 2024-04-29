@@ -1,0 +1,285 @@
+
+.top{
+    height:45% ;
+    background-color: aquamarine;
+    font-weight:bold;
+    font-size: x-large;
+    position:relative;
+    
+}
+div.top::before{
+    content:"";
+    display: block;
+    position:absolute;
+    inset:0;
+    background-image:url('../Styling/Images/pizza-4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+div.top_mobile::before{
+    content:"";
+    display: block;
+    position:absolute;
+    inset:0;
+    background-image:url('../Styling/Images/pizza-4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:40vh;
+
+}
+
+.top-options, .top-logo{
+    color: white;
+   
+}
+.top_mobile{
+    display: none;
+   
+}
+.top::before{
+    filter: brightness(40%);
+}
+.top_mobile::before{
+    filter: brightness(40%);
+}
+
+
+.link{
+    color:white;
+    font-size: 100%;
+}
+
+.mobile_link{
+    font-size:60px;
+    padding-bottom: 1vh;
+    color:coral;
+    font-weight: bold;
+    
+    
+}
+
+.logo-image{
+    height:80%;
+    width:80%;
+    mix-blend-mode:lighten;
+    filter:contrast(1)
+}
+.menu_button{
+    border-radius: 15px;
+    width:50%;
+    border:none;
+    font-weight: bold;
+    background-color: darkorange;
+    
+}
+
+.about_us{
+    height:60vh;
+}
+
+.content_text{
+    font-size: 1vw;
+}
+.pizza_lovers{
+        position:relative;
+        max-height:50vh
+    }
+
+
+div.pizza_lovers::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    height:100%;
+    background-image:url('../Styling/Images/pizza-5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(30%);
+}
+
+
+.menu{
+   min-height:180vh;
+}
+.contact_us{
+    min-height: 80vh;
+}
+
+.content_text_menu_headings{
+    color:red
+}
+h2,h3{
+    font-weight: bold;
+}
+
+.header{
+    min-height: 40%;
+}
+
+
+@media(max-width:1200px){
+  
+    .about_us,.menu{
+      
+        width:60%
+    }
+    .pizza_lovers{
+        position:relative
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .footer_content{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+     .header{
+        min-height:50%
+     }
+     .content_text{
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-device-width: 767px){
+    .logo-image{
+        height:70%;
+        width:70%;
+    }
+    .top-content,.about_us_image{
+        display: none;
+    }
+ 
+    .about_us{
+        min-height:35vh;
+    }
+    .pizza_lovers{
+        min-height: 35vh;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+
+    .logo-image{
+        height:70%;
+        width:70%;
+    }
+    .top-content,.about_us_image{
+        display: none;
+    }
+ 
+    .about_us{
+        max-height: 50vh;
+    }
+    .pizza_lovers{
+        max-height: 55vh;  
+    }
+    
+    .content_text{
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px) { 
+    .top-content{
+        display: none;
+    }
+    .logo-image{
+        height:80%;
+        width:80%;
+        
+    }
+   .menu{
+        min-height: 280vh;
+        max-height: 35%;
+        width:60%
+    }
+    .about_us_image{
+        display:none;
+    }
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 575px) {
+    .logo-image{
+        height:100%;
+        width:100%;
+        
+    }
+    .about_us_image{
+        display:none;
+    }
+    .menu{
+        min-height: 35%;
+        width:60%
+    }
+
+     .about_us,.pizza_lovers{
+        height:40vh;
+    }
+    .content_text{
+        font-size: 2.8vw
+    }
+    .content_text_menu,.price{
+        font-size: 3.2vw;
+    }
+    .menu{
+        font-size: 13px;
+    }
+    .content_text_menu_headings{
+        font-size: 3.5vw;
+        font-weight: bolder;
+    }
+    .map{
+        display:none;
+    }
+    .contact_us{
+        min-height: 50vh;
+    }
+    .top{
+        display: none;
+    }
+    .top_mobile{
+        display: inline;
+        overflow: hidden;
+    }
+    .header{
+        height:40vh
+    }
+
+
+}
+
+@media(max-device-height:500px){
+    .about_us,.pizza_lovers{
+        min-height:100vh;
+    }
+    .content_text{
+        font-size: 2vw;
+    }
+    .menu{
+        min-height: 350vh;
+    }
+}
+
+.content_text_menu_headings,.price{
+    display: inline;
+}
+
+.price{
+    float:right;
+    font-weight: bolder;
+}
+
+iframe{
+    min-width: 100%;
+    min-height: 40vh;
+}
