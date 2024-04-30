@@ -159,12 +159,12 @@ h2,h3{
         display: none;
     }
  
-    .about_us{
+/*     .about_us{
         min-height:35vh;
     }
     .pizza_lovers{
         min-height: 35vh;
-    }
+    } */
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
