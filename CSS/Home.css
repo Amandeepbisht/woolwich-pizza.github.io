@@ -187,7 +187,9 @@ h2,h3{
     .content_text{
         font-size: 2vw;
     }
-
+    .about_us_content{
+        color:red;
+    }
 }
 
 @media screen and (min-device-width: 992px) and (max-device-width: 1200px) { 
@@ -268,9 +270,7 @@ h2,h3{
     .menu{
         min-height: 350vh;
     }
-    .about_us_content{
-        color:red;
-    }
+
 }
 
 .content_text_menu_headings,.price{
