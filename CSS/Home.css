@@ -150,7 +150,7 @@ h2,h3{
     }
 }
 
-@media screen and (max-device-width: 767px) and (max-device-height:1024px){
+@media screen and (max-device-width: 767px) and (orientation: portrait){
     .logo-image{
         height:70%;
         width:70%;
@@ -167,6 +167,27 @@ h2,h3{
     }
     .about_us_content{
         color:red;
+    }
+    
+}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape){
+    .logo-image{
+        height:70%;
+        width:70%;
+    }
+    .top-content,.about_us_image{
+        display: none;
+    }
+ 
+     .about_us{
+        min-height:100vh;
+    }
+    .pizza_lovers{
+        min-height: 100vh;
+    }
+    .about_us_content{
+        color:black;
     }
     
 }
