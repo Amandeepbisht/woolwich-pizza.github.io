@@ -266,7 +266,7 @@ h2,h3{
 
 @media(max-device-height:500px){
     .about_us,.pizza_lovers{
-        height:100vh;
+        height:50vh;
     }
     .content_text{
         font-size: 2vw;
