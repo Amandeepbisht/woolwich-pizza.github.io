@@ -178,10 +178,10 @@ h2,h3{
     }
  
     .about_us{
-        max-height: 50vh;
+        min-height: 50vh;
     }
     .pizza_lovers{
-        max-height: 55vh;  
+        min-height: 55vh;  
     }
     
     .content_text{
