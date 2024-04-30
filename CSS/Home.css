@@ -159,12 +159,12 @@ h2,h3{
         display: none;
     }
  
-/*     .about_us{
-        min-height:35vh;
+     .about_us{
+        min-height:55vh;
     }
     .pizza_lovers{
-        min-height: 35vh;
-    } */
+        min-height: 55vh;
+    }
     .about_us_content{
         color:red;
     }
