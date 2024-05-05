@@ -30,7 +30,7 @@ div.top_mobile::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height:40vh;
+    max-height:40vh;
 
 }
 
