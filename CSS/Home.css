@@ -169,10 +169,10 @@ h2,h3{
     .about_us_content{
         color:red;
     }
-/*     .top_mobile{
+     .top_mobile{
         overflow:hidden;
-        height:100%
-    } */
+        height:inherit
+    } 
 }
 
 @media screen and (max-device-width: 767px) and (orientation: landscape){
