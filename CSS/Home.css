@@ -181,10 +181,10 @@ h2,h3{
     }
  
      .about_us{
-        min-height:100vh;
+        min-height:150vh;
     }
     .pizza_lovers{
-        min-height: 100vh;
+        min-height: 150vh;
     }
     .about_us_content{
         color:black;
