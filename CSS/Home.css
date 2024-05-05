@@ -22,7 +22,7 @@ div.top::before{
 }
 div.top_mobile::before{
     content:"";
-    display: inline-block;
+    display: block;
     position:absolute;
     inset:0;
     background-image:url('../Styling/Images/pizza-4.jpg');
