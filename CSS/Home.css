@@ -192,6 +192,9 @@ h2,h3{
     .header{
         min-height: 70vh;
     }
+    .top_mobile{
+        height:100%
+    }
     
 }
 
