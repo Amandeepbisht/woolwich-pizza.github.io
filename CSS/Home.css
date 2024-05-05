@@ -22,7 +22,7 @@ div.top::before{
 }
 div.top_mobile::before{
     content:"";
-    display: block;
+    display: inilne-block;
     position:absolute;
     inset:0;
     background-image:url('../Styling/Images/pizza-4.jpg');
@@ -30,7 +30,7 @@ div.top_mobile::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-   
+    height:100%;
 
 }
 
