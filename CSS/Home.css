@@ -190,7 +190,7 @@ h2,h3{
         color:black;
     }
     .header{
-        min-height: 60vh;
+        min-height: 100vh;
     }
     
 }
