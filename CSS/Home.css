@@ -175,6 +175,9 @@ h2,h3{
     .top_mobile{
         min-height:50vh;
     }
+    div.top::before{
+        max-height:50vh;
+    }
 }
 
 @media screen and (max-device-width: 767px) and (orientation: landscape){
