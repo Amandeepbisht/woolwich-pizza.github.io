@@ -30,7 +30,7 @@ div.top_mobile::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height:60%;
+    height:55%;
 
 }
 
@@ -203,7 +203,7 @@ h2,h3{
         min-height:70vh;
     }
     div.top_mobile::before{
-        height:80%;
+        height:95%;
     }
 
 }
