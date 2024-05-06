@@ -17,7 +17,7 @@ div.top::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height:100%;
+    
 
 }
 div.top_mobile::before{
@@ -30,7 +30,7 @@ div.top_mobile::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height:100%;
+
 
 }
 
@@ -175,9 +175,7 @@ h2,h3{
     .top_mobile{
         min-height:50vh;
     }
-    div.top::before{
-        max-height:50vh;
-    }
+
 }
 
 @media screen and (max-device-width: 767px) and (orientation: landscape){
