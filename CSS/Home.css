@@ -20,7 +20,7 @@ div.top::before{
     
 
 }
-div.top_mobile::before{
+/* div.top_mobile::before{
     content:"";
     display: inline-block;
     position:absolute;
@@ -32,7 +32,7 @@ div.top_mobile::before{
     background-position: center;
     height:50%;
 
-}
+} */
 
 .top-options, .top-logo{
     color: white;
