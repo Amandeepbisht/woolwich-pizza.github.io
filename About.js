@@ -230,6 +230,8 @@ let mobile=document.querySelector('.mobile')
 let main=document.querySelector('.main')
 let options=document.querySelector('.options')
 let close_button=document.querySelector('.close_button')
+let instagram=document.querySelector('.fa-instagram')
+let facebook=document.querySelector('.fa-facebook')
 mobile.style.display='none';
 
 options.addEventListener('click',toggle_screen=()=>{
@@ -244,6 +246,13 @@ close_button.addEventListener('click',my_function=()=>{
     mobile.style.display='none';
 })
 
+instagram.addEventListener('click',inst_fn=()=>{
+   window.open(https://www.instagram.com/woolwich_pizza?igsh=MWN2cXh4dzc0amhmbQ%3D%3D&utm_source=qr)
+})
+
+instagram.addEventListener('click',fb_fn=()=>{
+   window.open(https://www.facebook.com/share/khv2ARydwVXGFryk/?mibextid=LQQJ4d)
+})
 
 let menu_button=document.querySelector(".menu_button")
 
