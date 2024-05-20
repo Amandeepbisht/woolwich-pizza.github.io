@@ -247,12 +247,13 @@ close_button.addEventListener('click',my_function=()=>{
 })
 
 instagram.addEventListener('click',inst_fn=()=>{
-   window.open("https://www.instagram.com/woolwich_pizza?igsh=MWN2cXh4dzc0amhmbQ%3D%3D&utm_source=qr")
+   //window.open("https://www.instagram.com/woolwich_pizza?igsh=MWN2cXh4dzc0amhmbQ%3D%3D&utm_source=qr")
+   console.log("insta_link")
 })
 
-facebook.addEventListener('click',fb_fn=()=>{
-   window.open("https://www.facebook.com/share/khv2ARydwVXGFryk/?mibextid=LQQJ4d")
-})
+// facebook.addEventListener('click',fb_fn=()=>{
+//    window.open("https://www.facebook.com/share/khv2ARydwVXGFryk/?mibextid=LQQJ4d")
+// })
 
 let menu_button=document.querySelector(".menu_button")
 
