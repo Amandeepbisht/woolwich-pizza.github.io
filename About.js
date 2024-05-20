@@ -250,7 +250,7 @@ instagram.addEventListener('click',inst_fn=()=>{
    window.open(https://www.instagram.com/woolwich_pizza?igsh=MWN2cXh4dzc0amhmbQ%3D%3D&utm_source=qr)
 })
 
-instagram.addEventListener('click',fb_fn=()=>{
+facebook.addEventListener('click',fb_fn=()=>{
    window.open(https://www.facebook.com/share/khv2ARydwVXGFryk/?mibextid=LQQJ4d)
 })
 
