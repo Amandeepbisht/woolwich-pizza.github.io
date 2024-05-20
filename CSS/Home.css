@@ -31,7 +31,7 @@ div.top_mobile::before{
     background-attachment: fixed;
     background-position: center;
     height:55%;
-    pointer-events: none;
+    z-index:-1;
 }
 
 .top-options, .top-logo{
