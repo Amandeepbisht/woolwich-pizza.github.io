@@ -180,8 +180,8 @@ h2,h3{
 
 @media screen and (max-device-width: 767px) and (orientation: landscape){
     .logo-image{
-        height:80%;
-        width:80%;
+        height:60%;
+        width:60%;
     }
     .top-content,.about_us_image{
         display: none;
