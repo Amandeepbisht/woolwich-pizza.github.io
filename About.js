@@ -257,6 +257,6 @@ instagram.addEventListener('click',inst_fn=()=>{
 
 let menu_button=document.querySelector(".menu_button")
 if (screen.width>=1900){
-   document.body.scroll=20vh;
+   window.scrollTo(0,100)
 }
 
