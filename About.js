@@ -260,7 +260,7 @@ let menu_button=document.querySelector(".menu_button")
 if (window.innerWidth>1900){
   setTimeout(function () {
       window.scrollTo({
-         top:200,
+         top:-200,
          behavior: "smooth",
          });
   },2); 
