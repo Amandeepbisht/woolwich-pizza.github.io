@@ -257,7 +257,7 @@ instagram.addEventListener('click',inst_fn=()=>{
 
 let menu_button=document.querySelector(".menu_button")
 
-if (window.innerWidth>1900){
+if (window.width>1900){
    console.log("This is the newest log!")
    window.scrollTo(0,200)
 }
