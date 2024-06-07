@@ -1,4 +1,5 @@
-
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
 .top{
     height:45% ;
     background-color: aquamarine;
