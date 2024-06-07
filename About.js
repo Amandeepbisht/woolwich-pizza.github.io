@@ -261,4 +261,5 @@ if (window.innerWidth>1900){
    console.log("This is the newest log!")
    window.scrollTo(0,200)
 }
+console.log("This is the log from line#264, About.js")
   
