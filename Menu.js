@@ -242,3 +242,7 @@ close_button.addEventListener('click',my_function=()=>{
     main.style.display='block';
     mobile.style.display='none';
 })
+
+if (screen.width>1900){
+   window.scrollTo(0,200)
+}
