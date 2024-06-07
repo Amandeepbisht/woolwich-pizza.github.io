@@ -255,6 +255,8 @@ instagram.addEventListener('click',inst_fn=()=>{
 //    window.open("https://www.facebook.com/share/khv2ARydwVXGFryk/?mibextid=LQQJ4d")
 // })
 
-let menu_button=document.querySelector(".menu_button")
-
+//let menu_button=document.querySelector(".menu_button")
+if (mobile.style.display='none'){
+   document.body.scroll=20vh;
+}
 
