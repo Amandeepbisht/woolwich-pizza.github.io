@@ -257,7 +257,7 @@ instagram.addEventListener('click',inst_fn=()=>{
 
 let menu_button=document.querySelector(".menu_button")
 
-if (window.width>1900px){
+if (window.innerWidth>1900px){
   setTimeout(function () {
       window.scrollTo({
          top:200,
